@@ -1,0 +1,69 @@
+.profile-container {
+  animation: fadeIn 0.5s ease;
+}
+
+.profile-container h1 {
+  margin-bottom: 2rem;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.profile-section, .security-section, .kyc-section {
+  margin-bottom: 1.5rem;
+}
+
+.profile-section h2, .security-section h2, .kyc-section h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.security-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #2d3748;
+}
+
+.security-item:last-child {
+  border-bottom: none;
+}
+
+.security-item h3 {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.security-item p {
+  font-size: 0.875rem;
+  color: #9ca3af;
+}
+
+.kyc-status {
+  background: rgba(59, 130, 246, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.status-badge {
+  margin-bottom: 0.5rem;
+}
+
+.verified-message {
+  background: rgba(16, 185, 129, 0.1);
+  color: #10b981;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .profile-grid {
+    grid-template-columns: 1fr;
+  }
+}

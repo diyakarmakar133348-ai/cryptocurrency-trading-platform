@@ -1,0 +1,49 @@
+.admin-container {
+  animation: fadeIn 0.5s ease;
+}
+
+.admin-container h1 {
+  margin-bottom: 2rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(37, 99, 235, 0.05));
+  border-radius: 16px;
+  padding: 1.5rem;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.stat-card h3 {
+  color: #9ca3af;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.stat-card .stat-value {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.users-section, .transactions-section {
+  margin-top: 2rem;
+}
+
+.users-section h2, .transactions-section h2 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+select {
+  background: rgba(10, 14, 26, 0.8);
+  border: 1px solid #2d3748;
+  color: #e0e3eb;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
